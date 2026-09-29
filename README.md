@@ -26,3 +26,4 @@ Repo to centralise my work for the knowit bolagshack series.
     - Discover raw data
     - Search players
     - Get latest selection; Auth-request
+- [ ] FastAPI to expose data assets
