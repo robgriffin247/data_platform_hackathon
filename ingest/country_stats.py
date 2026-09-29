@@ -1,7 +1,7 @@
 import duckdb
 import os
 
-db = f"data/data_platform_hackathon_{os.getenv('TARGET')}.duckdb" if os.getenv("TARGET") in ["test", "prod"] else "data/data_platform_hackathon_dev.duckdb"
+db = f"md:data_platform_hackathon__{os.getenv('TARGET')}" if os.getenv("TARGET") in ["test", "prod"] else "data/data_platform_hackathon__dev.duckdb"
 
 def load_country_stats():
     with duckdb.connect(db) as con:
