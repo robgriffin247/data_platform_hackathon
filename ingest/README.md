@@ -13,7 +13,8 @@
         TARGET="prod" uv run ingest/swapi.py
         ```
 
-## Files
+## Sources
 
-- ``country_stats.py`` demonstrates loading from a .csv file using DuckDB in Python
-- ``swapi.py`` demonstrates loading with dlt from a REST API
+- ``country_stats.py`` loads data from wikipedia/kaggle about countries, and demonstrates loading from a .csv file using DuckDB in Python
+- ``swapi.py`` loads data from SWAPI (Star Wars API), and demonstrates loading with dlt from a REST API
+- ``fpl.py`` loads data from the FPL (Fantasy Premier League) API, demonstrating extraction with httpx and minor transformations before loading with dlt resources
