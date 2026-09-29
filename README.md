@@ -19,6 +19,8 @@ Repo to centralise my work for the knowit bolagshack series.
 
 ## ToDo
 
+
+- [ ] modal job for ingestion of FPL
 - [ ] dbt transformations of FPL data
 - [ ] FastMCP on FPL
     - Discover raw data
