@@ -3,5 +3,6 @@ name = "data-platform-hackathon"
 version = "0.1.0"
 requires-python = ">=3.14"
 dependencies = [
+    "dlt[duckdb,parquet]>=1.30.0",
     "duckdb==1.5.5",
 ]
