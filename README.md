@@ -16,11 +16,11 @@ Repo to centralise my work for the knowit bolagshack series.
 - Data Warehouse: 
   - ``dev``: DuckDB
   - ``test`` and ``prod``: MotherDuck
+- Orchestration: Modal
 
 ## ToDo
 
 
-- [ ] modal job for ingestion of FPL
 - [ ] dbt transformations of FPL data
 - [ ] FastMCP on FPL
     - Discover raw data
