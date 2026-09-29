@@ -17,3 +17,10 @@ Repo to centralise my work for the knowit bolagshack series.
   - ``dev``: DuckDB
   - ``test`` and ``prod``: MotherDuck
 
+## ToDo
+
+- [ ] dbt transformations of FPL data
+- [ ] FastMCP on FPL
+    - Discover raw data
+    - Search players
+    - Get latest selection; Auth-request
